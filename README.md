@@ -12,7 +12,7 @@ The Alpha 3 code of each sell was concatenated with the Alpha 2 code in the foll
 ```
 The spreadsheet file of the repo contains all the operations made on the imported data.
 
-The resulting strings were used to make the final datastructure:
+The resulting values were used to make the final datastructure:
 
 ```Golang
 var COUNTRY3TO2 = map[string]string{
