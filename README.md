@@ -304,6 +304,8 @@ In one of the service, I had to collect universities information that matched a 
 
 The country codes used by the University API are the Alpha 2 codes. However, the each country's bordering countries were stored in the country objects of the country API in the Alpha 3 code. Mapping was therefore needed. The datastructure above was used for that mapping.
 
+I wanted the map to be hard coded in the code base so that a developper could see and examine its content.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
